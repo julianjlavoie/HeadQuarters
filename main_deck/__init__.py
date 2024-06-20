@@ -8,7 +8,7 @@ File_Description: The entry point of the Web Platform
 
 from flask import Flask
 
-from MainDeck import pages
+from main_deck import pages
 
 def create_app():
     ''' create apps '''
